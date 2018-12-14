@@ -106,6 +106,10 @@ For more information, see the [Fastify CLI documentation](https://github.com/fas
 > `.listen` binds to the local host, `localhost`, interface by default (`127.0.0.1` or `::1`, depending on the operating system configuration). If you are running Fastify in a container (Docker, [GCP](https://cloud.google.com/), etc.), you may need to bind to `0.0.0.0`. Be careful when deciding to listen on all interfaces; it comes with inherent [security risks](https://web.archive.org/web/20170711105010/https://snyk.io/blog/mongodb-hack-and-secure-defaults/). 
 > See [the documentation](https://github.com/fastify/fastify/blob/master/docs/Server.md#listen) for more information.
 
+## Fastify v1.x
+
+Code for Fastify's **v1.x** is at - [Branch 1.x](https://github.com/fastify/fastify/tree/1.x), so all Fastify 1.x related changes should be based on **`branch 1.x`**.
+
 ### Core features
 
 - **Highly performant:** as far as we know, Fastify is one of the fastest web frameworks in town, depending on the code complexity we can serve up to 30 thousand requests per second.
